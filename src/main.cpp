@@ -296,6 +296,8 @@ class $modify(UnlistedObjectsUI, EditorUI) {
 				ADD_OBJ(34, NON_REPLICABLE);
 				// other weird block (looks like it uses a weird mishmash of textures)
 				ADD_OBJ(3800, NON_REPLICABLE);
+				// gold coin
+				ADD_OBJ(142, STABLE);
 
 				auto spr = CCSprite::create("StartPosLabel.png"_spr);
 				spr->setScale(0.6f);
@@ -488,6 +490,8 @@ class $modify(UnlistedObjectsUI, EditorUI) {
 				ADD_OBJ(34, NON_REPLICABLE);
 				// other weird block (looks like it uses a weird mishmash of textures)
 				ADD_OBJ(3800, NON_REPLICABLE);
+				// gold coin
+				ADD_OBJ(142, STABLE);
 
 				auto spr = CCSprite::create("StartPosLabel.png"_spr);
 				spr->setScale(0.6f);
